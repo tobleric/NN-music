@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>RestaurantNN</title>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+	<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+</head>
+
+<body>
+	
+	<script src="sketch.js"></script>
+	
+	<h1>Wie viele Michelin Sterne hätte dieses Restaurant?</h1>
+	<p><label>Region:</label>
+		<select id="region">
+			<!-- <option value="1">Austria</option>
+			<option value="2">California</option>
+			<option value="3">Chicago</option>
+			<option value="4">New York City</option>
+			<option value="5">Ireland</option>
+			<option value="6">Rio de Janeiro</option>
+			<option value="7">Sao Paulo</option>
+			<option value="8">South Korea</option>
+			<option value="9">Singapore</option>
+			<option value="10">Taipei</option>
+			<option value="11">Thailand</option>
+			<option value="12">Washington DC</option>
+			<option value="13">United Kingdom</option>
+			<option value="14">Denmark</option>
+			<option value="15">Hong Kong</option>
+			<option value="16">Macau</option>
+			<option value="17">Norway</option>
+			<option value="20">Sweden</option> -->
+		</select>
+	</p>
+
+	<p><label>Preis:</label>
+		<select id="price">
+			<option value="1">$</option>
+			<option value="2">$$</option>
+			<option value="3">$$$</option>
+			<option value="4">$$$$</option>
+			<option value="5">$$$$$</option>
+		</select>
+	</p>
+<!-- 
+	
+	<p><label>Küche:</label>
+		<select id="cuisine"></select>
+		<option value="Creative">Creative</option>
+		<option value="Classic cuisine">Classic cuisine</option>
+		<option value="Market cuisine">Market cuisine</option>
+		<option value="Modern cuisine">Modern cuisine</option>
+		<option value="Contemporary">Contemporary</option>
+		<option value="Indian">Indian</option>
+		<option value="Moroccan">Moroccan</option>
+		<option value="French">French</option>
+		<option value="Californian">Californian</option>
+		<option value="Japanese">Japanese</option>
+		<option value="Fusion">Fusion</option>
+		<option value="Gastropub">Gastropub</option>
+		<option value="American">American</option>
+		<option value="Scandinavian">Scandinavian</option>
+		<option value="Modern French">Modern French</option>
+	</p> -->
+
+	<button id="train">Train</button>
+	<button id="predict">Predict</button>
+
+	<p id= "result"></p>
+
+
+</body>
+
+</html>
